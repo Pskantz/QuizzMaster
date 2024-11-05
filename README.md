@@ -1,2 +1,2 @@
 # QuizzMaster
-Spelet startar
+Spelet startar senar
