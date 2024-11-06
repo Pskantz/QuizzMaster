@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\patri\\.nuget\\packages\\": {}
+    "C:\\Users\\NiklasBryngelsson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patri\\Documents\\GitHub\\QuizzMaster\\QuizzMaster.csproj",
+      "projectUniqueName": "C:\\Users\\NiklasBryngelsson\\Övningar\\QuizzMaster\\QuizzMaster.csproj",
       "projectName": "QuizzMaster",
-      "projectPath": "C:\\Users\\patri\\Documents\\GitHub\\QuizzMaster\\QuizzMaster.csproj",
-      "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patri\\Documents\\GitHub\\QuizzMaster\\obj\\",
+      "projectPath": "C:\\Users\\NiklasBryngelsson\\Övningar\\QuizzMaster\\QuizzMaster.csproj",
+      "packagesPath": "C:\\Users\\NiklasBryngelsson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NiklasBryngelsson\\Övningar\\QuizzMaster\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\patri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\NiklasBryngelsson\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
