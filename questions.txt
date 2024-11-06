@@ -1,0 +1,5 @@
+Vilken är huvudstaden i Sverige?|Stockholm|Göteborg|Malmö|Stockholm
+Vilken planet är närmast solen?|Mars|Venus|Merkurius|Merkurius
+Vilket år sjönk Titanic?|1912|1915|1905|1912
+Vem skrev boken 'Moby Dick'?|Mark Twain|Herman Melville|Jane Austen|Herman Melville
+Vad är summan av vinklarna i en triangel?|180 grader|90 grader|360 grader|180 grader
