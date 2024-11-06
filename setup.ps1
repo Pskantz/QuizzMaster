@@ -1,27 +1,21 @@
-# Create the solution
-dotnet new sln -n HangmanGameSolution
+# Skapa en ny lösning
+dotnet new sln -n QuizMasterSolution
 
+# Skapa kärnbiblioteket för spelets logik
+dotnet new classlib -n QuizMaster.Core
 
-# Create the core library project (for game logic)
-dotnet new classlib -n HangmanGame.Core
-# Verkare inte behövas --> dotnet add HangmanGame.Core package System.Collections.Immutable
+# Skapa konsolapplikationen
+dotnet new console -n QuizMaster.ConsoleApp
 
+# Skapa testprojektet med xUnit
+dotnet new xunit -n QuizMaster.Tests
+dotnet add QuizMaster.Tests package Shouldly
 
-# Create the console application project
-dotnet new console -n HangmanGame.ConsoleApp
+# Lägg till projektreferenser
+dotnet add QuizMaster.ConsoleApp reference QuizMaster.Core
+dotnet add QuizMaster.Tests reference QuizMaster.Core
 
-
-# Create the test project using xUnit
-dotnet new xunit -n HangmanGame.Tests
-dotnet add HangmanGame.Tests package Shouldly
-
-
-# Add project references
-dotnet add HangmanGame.ConsoleApp reference HangmanGame.Core
-dotnet add HangmanGame.Tests reference HangmanGame.Core
-
-
-# Add the projects to the solution
-dotnet sln HangmanGameSolution.sln add HangmanGame.Core/HangmanGame.Core.csproj
-dotnet sln HangmanGameSolution.sln add HangmanGame.ConsoleApp/HangmanGame.ConsoleApp.csproj
-dotnet sln HangmanGameSolution.sln add HangmanGame.Tests/HangmanGame.Tests.csproj
+# Lägg till projekten till lösningen
+dotnet sln QuizMasterSolution.sln add QuizMaster.Core/QuizMaster.Core.csproj
+dotnet sln QuizMasterSolution.sln add QuizMaster.ConsoleApp/QuizMaster.ConsoleApp.csproj
+dotnet sln QuizMasterSolution.sln add QuizMaster.Tests/QuizMaster.Tests.csproj
